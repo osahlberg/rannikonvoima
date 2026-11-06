@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rannikon Voima</title>
+  <meta name="description" content="Rannikon Voima – voimanostoseura Varsinais-Suomessa. Tukea, taitoa ja tuloksia voimanostoon." />
+  <link rel="icon" type="image/png" href="assets/img/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Siirry sisältöön</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#/" data-route>
+        <img src="assets/img/logo.png" alt="Rannikon Voima" class="brand-logo" />
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primaryNav">
+        <a href="#/" data-route>Etusivu</a>
+        <a href="#/jaseneksi" data-route>Jäseneksi</a>
+        <a href="#/yhteystiedot" data-route>Yhteystiedot</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main"></main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <img src="assets/img/logo.png" alt="Rannikon Voima" />
+        <p>Voimanostoseura Varsinais-Suomessa. Perustettu 2021.</p>
+      </div>
+      <div class="footer-links">
+        <strong>Ota yhteyttä</strong>
+        <a href="mailto:rannikonvoima@gmail.com">rannikonvoima@gmail.com</a>
+        <div class="social-row">
+          <a href="http://instagram.com/rannikon_voima" target="_blank" rel="noopener">Instagram</a>
+          <a href="http://faceboook.com/rannikonvoima2021" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.tiktok.com/@rannikonvoima" target="_blank" rel="noopener">TikTok</a>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <strong>Sivukartta</strong>
+        <a href="#/jaseneksi" data-route>Jäseneksi</a>
+        <a href="#/yhteystiedot" data-route>Yhteystiedot</a>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <span>&copy; <span id="year"></span> Rannikon Voima</span>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
